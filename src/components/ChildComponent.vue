@@ -9,5 +9,5 @@ const emitEvent = () => {
 
 <template>
     <p>{{ message }}</p>
-    <button @click="$emit('updateMessage')">Update Message</button>
+    <button @click="emitEvent">Send Message</button>
 </template>
