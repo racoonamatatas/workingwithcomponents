@@ -8,6 +8,6 @@ const emitEvent = () => {
 </script>
 
 <template>
-    <p>{{ message }}</p>
     <button @click="emitEvent">Send Message</button>
+    <p>{{ props.message }}</p>
 </template>
