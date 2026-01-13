@@ -1,3 +1,7 @@
-<script setup></script>
+<script setup>
+import ParentComponent from './components/ParentComponent.vue';
+</script>
 
-<template></template>
+<template>
+    <ParentComponent />
+</template>
